@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+}
+
+.body-format {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.favi-logo{
+    margin-bottom: 0px !important;
+    padding: none !important;
+    margin-left: -60px;
+    justify-content: center;
+}
+
+.head-text{
+    margin-top: -70px !important;
+}
+
+.np-desc{
+    text-align: left !important;
+}
+
+.np-form{
+    margin-bottom: 20px;
+}
+
+.cp-btn{
+    background-color: #ff0083;
+    border-color: #ff0083;
+    font-weight: 500;
+    width: 243px !important;
+}
+
+.cp-btn:hover{
+    background-color: #dd0072;
+    border-color: #dd0072;
+    font-weight: 500;
+}
+
+
+.cp-btn:active{
+    background-color: #b1005b;
+    border-color: #b1005b;
+    font-weight: 500;
+}
+
+
+.cp-main{
+    margin-top: -60px;
+}
+
+
+.cp-box:checked{
+  background-color: hotpink !important;
+  border-color:hotpink !important;
+}
+
+
+#cnp-link{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  width: 250px;
+  margin: 0 auto !important;
+}
+
+
+#cnp-link:active{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  background-color: #b1005b !important;
+}
+
+
+
+

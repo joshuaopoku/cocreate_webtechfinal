@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 241, 249);
+}
+
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+
+
+.image-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.collab-img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: -12px;
+    min-height: 100%;
+    min-width: 100%;
+    flex-shrink: 0;
+}
+
+@font-face {
+    font-family: MrDafoe;
+    src: url(fonts/MrDafoe-Regular.ttf);
+  }
+
+.logo-font{
+    font-family: MrDafoe;
+}
+
+.Form{
+    padding-top: 90px;
+}
+
+
+.log-link{
+    text-decoration: none;
+    color: hotpink;
+}
+
+.log-link:hover{
+    color: rgb(179, 41, 110);
+}
+
+.log-link:active{
+    color: black;
+}
+
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+
+
+.row{
+    height: auto;
+}
+
+
+#par-log{
+    margin-bottom: 50px;
+}
+
